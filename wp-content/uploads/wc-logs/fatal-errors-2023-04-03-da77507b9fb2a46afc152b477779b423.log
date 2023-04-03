@@ -1,0 +1,210 @@
+2023-04-03T09:48:52+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(18)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->maybe_handle('')
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-admin\admin-ajax.php(188): do_action('wp_ajax_wp_imag...')
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T09:51:40+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(175): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->maybe_handle('')
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T09:55:20+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T09:59:24+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:03:51+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:09:13+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:15:26+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:19:22+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:23:55+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:29:00+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:34:41+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:39:06+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:44:20+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:49:17+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
+2023-04-03T10:54:51+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php:962
+Stack trace:
+#0 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4444)
+#2 C:\laragon\www\e-comm\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\laragon\www\e-comm\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\laragon\www\e-comm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\laragon\www\e-comm\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\laragon\www\e-comm\wp-cron.php(188): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\laragon\www\e-comm\wp-content\plugins\elementor\core\base\document.php à la ligne 962
+
